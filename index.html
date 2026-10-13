@@ -512,7 +512,7 @@ function viewTextes(){
   if(!HAS_PDF)return '<div class="wrap page"><div class="ph"><div><h1>Registre des lois</h1><p>Les Codes sont lisibles en entier sur ce portail. Les versions PDF verrouillées (recueil de 123 pages et un PDF par Code, édition du 10 octobre 2026) sont disponibles sur la version publiée du portail.</p></div></div>'+newLawHtml()+'<div class="note"><b>Une copie qui ne vient pas de ce portail n\u2019est pas officielle.</b> Seul le Gouvernement publie et modifie les Codes.</div></div>';
   var l=[1,2,3,4,5,6,7,8].map(function(c){return pdfLink(CINFO[c].pdf,'Code '+ROM[c]+' · '+CINFO[c].n)}).join('');
   return '<div class="wrap page"><div class="ph"><div><h1>Registre des lois</h1><p>Le Registre des lois rassemble les versions officielles des Codes, en PDF, édition du 10 octobre 2026. Elles sont verrouillées : elles se lisent, se copient et s\u2019impriment, mais ne se modifient pas. Le texte du site est identique.</p></div></div>'+
-  pdfLink('Recueil_officiel_des_8_Codes','Recueil officiel des huit Codes · 126 pages',true)+
+  pdfLink('Recueil_officiel_des_8_Codes','Recueil officiel des huit Codes · 127 pages',true)+
   '<h2 style="font-size:22px;margin-top:32px">Un Code à la fois</h2><div class="pdfrow">'+l+'</div>'+newLawHtml()+
   '<div class="note"><b>Une copie qui ne vient pas de ce portail n\u2019est pas officielle.</b> Seul le Gouvernement publie et modifie les Codes. Pour vérifier un texte, comparez-le avec celui de cette page.</div></div>';
 }
